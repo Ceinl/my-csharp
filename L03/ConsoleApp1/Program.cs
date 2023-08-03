@@ -10,7 +10,7 @@ class Program
 
         try
         {
-            num = Convert.ToInt32(userInput);
+            num = int.Parse(userInput);
             Console.WriteLine("resutf of divide by zero: " + (num / 0));
         }
         catch (DivideByZeroException)
